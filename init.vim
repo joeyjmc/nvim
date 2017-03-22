@@ -146,7 +146,7 @@ let g:deoplete#enable_at_startup = 1
 let g:deoplete#file#enable_buffer_path = 1
 let g:deoplete#ignore_sources = { '_': ['omni'] }
 
-let g:ackprg = 'ag --vimgrep'
+let g:ackprg = 'ag --vimgrep --ignore tags'
 
 nnoremap <silent> <C-p> :FZF<CR>
 nnoremap <silent> <C-u> :FZFMru<CR>
